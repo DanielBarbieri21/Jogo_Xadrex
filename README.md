@@ -269,8 +269,9 @@ Para dúvidas, sugestões ou problemas:
 
 <div align="center">
   <p><strong>MateCheck</strong> - Aprenda programação jogando xadrez! 🏆</p>
-  <p>Desenvolvido com ❤️ por Daniel Barbieri Dev</p>
+  <p>Desenvolvido por Daniel Barbieri Dev</p>
 
 </div>
+
 
 
