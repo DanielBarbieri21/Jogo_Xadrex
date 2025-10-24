@@ -1,0 +1,183 @@
+{
+  "name": "MateCheck",
+  "version": "1.0.0",
+  "description": "Jogo de Xadrez Educacional desenvolvido em C com SDL2",
+  "author": "Daniel Barbieri Dev",
+  "license": "MIT",
+  "keywords": [
+    "chess",
+    "education",
+    "programming",
+    "c",
+    "sdl2",
+    "game",
+    "learning"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielbarbieri/matecheck.git"
+  },
+  "bugs": {
+    "url": "https://github.com/danielbarbieri/matecheck/issues"
+  },
+  "homepage": "https://github.com/danielbarbieri/matecheck#readme",
+  "dependencies": {
+    "sdl2": ">=2.0.0",
+    "sdl2_ttf": ">=2.0.0",
+    "sdl2_mixer": ">=2.0.0"
+  },
+  "build": {
+    "compiler": "gcc",
+    "flags": [
+      "-Wall",
+      "-Wextra",
+      "-std=c99",
+      "-O2",
+      "-g"
+    ],
+    "libraries": [
+      "SDL2",
+      "SDL2_ttf",
+      "SDL2_mixer"
+    ]
+  },
+  "modules": {
+    "novato": {
+      "name": "Módulo Novato",
+      "description": "Aprenda estruturas de repetição básicas",
+      "concepts": [
+        "for loops",
+        "while loops",
+        "do-while loops",
+        "arrays"
+      ],
+      "pieces": [
+        "Torre",
+        "Bispo",
+        "Rainha"
+      ]
+    },
+    "aventureiro": {
+      "name": "Módulo Aventureiro",
+      "description": "Explore loops aninhados e validação",
+      "concepts": [
+        "nested loops",
+        "boundary validation",
+        "2D arrays",
+        "search algorithms"
+      ],
+      "pieces": [
+        "Cavalo"
+      ]
+    },
+    "mestre": {
+      "name": "Módulo Mestre",
+      "description": "Domine recursividade e otimização",
+      "concepts": [
+        "recursion",
+        "backtracking",
+        "memoization",
+        "algorithm optimization"
+      ],
+      "pieces": [
+        "Cavalo (algoritmo recursivo)"
+      ]
+    }
+  },
+  "features": {
+    "graphics": {
+      "renderer": "SDL2",
+      "resolution": "1000x800",
+      "fullscreen": false,
+      "vsync": true
+    },
+    "audio": {
+      "enabled": true,
+      "sample_rate": 44100,
+      "channels": 2
+    },
+    "input": {
+      "mouse": true,
+      "keyboard": true,
+      "gamepad": false
+    },
+    "ui": {
+      "theme": "modern",
+      "language": "pt_BR",
+      "accessibility": true
+    }
+  },
+  "development": {
+    "debug": {
+      "enabled": false,
+      "logging": true,
+      "profiling": false
+    },
+    "testing": {
+      "unit_tests": false,
+      "integration_tests": false,
+      "performance_tests": false
+    },
+    "documentation": {
+      "api": true,
+      "tutorials": true,
+      "examples": true
+    }
+  },
+  "platforms": {
+    "windows": {
+      "min_version": "10",
+      "compiler": "mingw-w64",
+      "dependencies": [
+        "SDL2-devel-2.32.0-mingw.tar.gz"
+      ]
+    },
+    "linux": {
+      "distributions": [
+        "Ubuntu",
+        "Debian",
+        "Fedora",
+        "Arch"
+      ],
+      "dependencies": [
+        "libsdl2-dev",
+        "libsdl2-ttf-dev",
+        "libsdl2-mixer-dev"
+      ]
+    },
+    "macos": {
+      "min_version": "10.14",
+      "dependencies": [
+        "sdl2",
+        "sdl2_ttf",
+        "sdl2_mixer"
+      ]
+    }
+  },
+  "scripts": {
+    "build": "make",
+    "run": "make run",
+    "clean": "make clean",
+    "install": "make install",
+    "test": "make test",
+    "package": "make package"
+  },
+  "contributors": [
+    {
+      "name": "Daniel Barbieri Dev",
+      "email": "daniel@matecheck.dev",
+      "role": "Developer",
+      "github": "danielbarbieri"
+    }
+  ],
+  "changelog": {
+    "1.0.0": [
+      "Initial release",
+      "Three difficulty modules",
+      "Modern UI with SDL2",
+      "Sound effects and music",
+      "Cross-platform support",
+      "Professional documentation"
+    ]
+  }
+}

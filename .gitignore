@@ -1,0 +1,51 @@
+# Arquivos de compilação
+obj/
+bin/
+*.o
+*.exe
+*.out
+
+# Arquivos de debug
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Arquivos de sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Arquivos de IDE
+.vscode/
+.idea/
+*.vcxproj
+*.vcxproj.filters
+*.sln
+
+# Arquivos de distribuição
+matecheck-dist/
+matecheck-dist.tar.gz
+
+# Logs
+*.log
+
+# Arquivos de configuração local
+config.local
+settings.local
+
+# Assets opcionais (se não estiverem no repositório)
+assets/fonts/
+assets/sounds/
+assets/images/
+
+# Arquivos de backup
+*.bak
+*.backup
