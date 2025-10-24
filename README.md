@@ -4,7 +4,6 @@
   <img src="https://img.shields.io/badge/Linguagem-C-blue.svg" alt="Linguagem C">
   <img src="https://img.shields.io/badge/SDL2-2.32.0-green.svg" alt="SDL2">
   <img src="https://img.shields.io/badge/Plataforma-Windows%20%7C%20Linux%20%7C%20macOS-lightgrey.svg" alt="Plataforma">
-  <img src="https://img.shields.io/badge/Licença-MIT-yellow.svg" alt="Licença">
 </div>
 
 ## 📖 Sobre o Projeto
@@ -272,6 +271,7 @@ Para dúvidas, sugestões ou problemas:
   <p>Desenvolvido por Daniel Barbieri Dev</p>
 
 </div>
+
 
 
 
