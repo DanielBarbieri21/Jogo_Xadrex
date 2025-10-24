@@ -262,7 +262,7 @@ Contribuições são bem-vindas! Para contribuir:
 Para dúvidas, sugestões ou problemas:
 
 - **Email**: dibarbieri21@gmail.com
-- **GitHub**: [@danielbarbieri](https://github.com/DanielBarbieri21))
+- **GitHub**: [@danielbarbieri](https://github.com/DanielBarbieri21)
 - **LinkedIn**: [Daniel Barbieri](https://www.linkedin.com/in/daniel-barbieri-4990462a)
 
 ---
@@ -272,4 +272,5 @@ Para dúvidas, sugestões ou problemas:
   <p>Desenvolvido com ❤️ por Daniel Barbieri Dev</p>
 
 </div>
+
 
